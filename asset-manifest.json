@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/EV-Mobility/static/css/main.8f13d017.css",
-    "main.js": "/EV-Mobility/static/js/main.31c97f69.js",
-    "static/media/dex.png": "/EV-Mobility/static/media/dex.559329d6ed46cfc06374.png",
-    "static/media/office3.png": "/EV-Mobility/static/media/office3.705b9c65937ba88c5fe2.png",
-    "static/media/dexGr.png": "/EV-Mobility/static/media/dexGr.a706db749e36005e0a7c.png",
-    "static/media/miracle.png": "/EV-Mobility/static/media/miracle.ccbef14fd33e8bb1e14a.png",
-    "static/media/miracleCT.png": "/EV-Mobility/static/media/miracleCT.be23eab60c2e1ce4f779.png",
-    "static/media/wynn.png": "/EV-Mobility/static/media/wynn.fb82bc2ea2b5f222e30d.png",
-    "static/media/car-header.png": "/EV-Mobility/static/media/car-header.17ccc617fc7d830ac02d.png",
-    "static/media/costSaving.jpg": "/EV-Mobility/static/media/costSaving.9b1babaa2d7e1c900eac.jpg",
-    "static/media/ecoF.jpg": "/EV-Mobility/static/media/ecoF.a3820ce12a382a854737.jpg",
-    "static/media/zomato.png": "/EV-Mobility/static/media/zomato.103e388a9a8e5c61635d.png",
-    "static/media/creditcardicons.png": "/EV-Mobility/static/media/creditcardicons.8ea9fa69856f315a9267.png",
-    "static/media/logo2.png": "/EV-Mobility/static/media/logo2.e88101465598d7cebfed.png",
-    "static/media/google.svg": "/EV-Mobility/static/media/google.6476c260a70a2c9a1fa053732d05e4d1.svg",
-    "index.html": "/EV-Mobility/index.html",
-    "main.8f13d017.css.map": "/EV-Mobility/static/css/main.8f13d017.css.map",
-    "main.31c97f69.js.map": "/EV-Mobility/static/js/main.31c97f69.js.map"
+    "main.css": "/static/css/main.8f13d017.css",
+    "main.js": "/static/js/main.4beee222.js",
+    "static/media/dex.png": "/static/media/dex.559329d6ed46cfc06374.png",
+    "static/media/office3.png": "/static/media/office3.705b9c65937ba88c5fe2.png",
+    "static/media/dexGr.png": "/static/media/dexGr.a706db749e36005e0a7c.png",
+    "static/media/miracle.png": "/static/media/miracle.ccbef14fd33e8bb1e14a.png",
+    "static/media/miracleCT.png": "/static/media/miracleCT.be23eab60c2e1ce4f779.png",
+    "static/media/wynn.png": "/static/media/wynn.fb82bc2ea2b5f222e30d.png",
+    "static/media/car-header.png": "/static/media/car-header.17ccc617fc7d830ac02d.png",
+    "static/media/costSaving.jpg": "/static/media/costSaving.9b1babaa2d7e1c900eac.jpg",
+    "static/media/ecoF.jpg": "/static/media/ecoF.a3820ce12a382a854737.jpg",
+    "static/media/zomato.png": "/static/media/zomato.103e388a9a8e5c61635d.png",
+    "static/media/creditcardicons.png": "/static/media/creditcardicons.8ea9fa69856f315a9267.png",
+    "static/media/logo2.png": "/static/media/logo2.e88101465598d7cebfed.png",
+    "static/media/google.svg": "/static/media/google.6476c260a70a2c9a1fa053732d05e4d1.svg",
+    "index.html": "/index.html",
+    "main.8f13d017.css.map": "/static/css/main.8f13d017.css.map",
+    "main.4beee222.js.map": "/static/js/main.4beee222.js.map"
   },
   "entrypoints": [
     "static/css/main.8f13d017.css",
-    "static/js/main.31c97f69.js"
+    "static/js/main.4beee222.js"
   ]
 }
