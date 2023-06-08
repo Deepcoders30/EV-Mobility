@@ -1,0 +1,156 @@
+.Hero {
+  padding: 50px 20px;
+  .header-section {
+    gap: 50px;
+    .header-left {
+      width: 40vw;
+      text-align: center;
+
+      h1 {
+        font-size: 3.5rem;
+        font-family: "Bangers", sans-serif;
+        font-weight: 500;
+        color: #c3073f;
+        text-transform: uppercase;
+        text-align: start;
+      }
+      p {
+        color: #808080;
+        text-align: start;
+      }
+
+      a {
+        margin-top: 20px;
+      }
+
+      .primary-button:hover {
+        background-color: black;
+        border-color: #c3073f;
+        box-shadow: 0 0 2px #000;
+      }
+    }
+
+    .header-right {
+      img {
+        width: 100%;
+        height: 350px;
+      }
+    }
+  }
+}
+
+.companies-section {
+  p {
+    text-align: center;
+    margin-block: 20px;
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .slider {
+    margin-inline: auto;
+    width: 900px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .slide {
+      gap: 30px;
+      img {
+        width: 150px;
+        object-fit: contain;
+      }
+
+      animation: slideshow 8s linear infinite;
+    }
+  }
+}
+
+.Product-Card-Container {
+  margin-top: 80px;
+
+  .product-card-heading {
+    margin: 0;
+    text-transform: uppercase;
+    color: #c3073f;
+    text-align: center;
+    h1 {
+      font-weight: 500;
+      font-size: 4rem;
+      font-family: "Bangers";
+      margin-block-start: 0px;
+      margin-block-end: 0px;
+    }
+    p {
+      color: #808080;
+      font-size: 1rem;
+    }
+  }
+
+  .product-wrapper {
+    margin-top: 10px;
+    gap: 30px;
+  }
+}
+
+.benefit-section {
+  .benefit-heading {
+    text-align: center;
+    margin-top: 80px;
+    h1 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-family: "Bangers", sans-serif;
+      color: #c3073f;
+    }
+  }
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Hero {
+    .header-section {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-inline: 0px;
+
+      .header-left {
+        text-align: start;
+        width: 100%;
+      }
+
+      .header-right {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1376px) {
+  .Hero {
+    .header-section {
+      padding-inline: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 663px) {
+  .product-wrapper {
+    flex-direction: column;
+  }
+}
