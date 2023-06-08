@@ -43,12 +43,12 @@ function Home() {
               reducing your carbon footprint. Embrace the future of
               transportation with EVs.
             </p>
-            <a href="#" className="primary-button">
+            <a href="/" className="primary-button">
               Explore More
             </a>
           </div>
           <div class="header-right" data-aos="fade-left">
-            <img src={headerImg} alt="header-image" />
+            <img src={headerImg} alt="header" />
           </div>
         </div>
       </div>
@@ -63,11 +63,11 @@ function Home() {
         <div className="slider" data-aos="fade-up">
           <div className="slide flex items-center">
             {comp_images.map((logo) => {
-              return <img src={logo.cName} />;
+              return <img src={logo.cName} alt="logo" />;
             })}
 
             {comp_images.map((logo) => {
-              return <img src={logo.cName} />;
+              return <img src={logo.cName} alt="logo" />;
             })}
           </div>
         </div>

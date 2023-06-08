@@ -12,7 +12,7 @@ function AboutUs() {
 
         <div className="about-body">
           <div className="about-img" data-aos="fade-right">
-            <img src={office} alt="image" />
+            <img src={office} alt="office" />
           </div>
 
           <div className="about-details" data-aos="fade-left">

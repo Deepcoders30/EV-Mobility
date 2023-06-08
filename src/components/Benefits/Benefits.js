@@ -9,7 +9,7 @@ function Benefits() {
     <>
       <div className="benefit-container flex">
         <div className="benefit-img" data-aos="fade-right">
-          <img src={ecoF} alt="image" />
+          <img src={ecoF} alt="eco-friendly" />
         </div>
 
         <div className="benefit-details flex" data-aos="fade-left">
@@ -36,13 +36,13 @@ function Benefits() {
         </div>
 
         <div className="benefit-img second" data-aos="fade-right">
-          <img src={costSaving} alt="image" />
+          <img src={costSaving} alt="cost-saving" />
         </div>
       </div>
 
       <div className="benefit-container flex">
         <div className="benefit-img third" data-aos="fade-right">
-          <img src={experience} alt="image" />
+          <img src={experience} alt="experience" />
         </div>
 
         <div className="benefit-details flex" data-aos="fade-left">
